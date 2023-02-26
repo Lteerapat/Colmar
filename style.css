@@ -427,6 +427,8 @@ footer {
 /* Responsive */
 
 @media (max-width: 625px) {
+
+    /* nav bar responsive */
     .colmar-logo {
         display: none;
     }
@@ -436,11 +438,12 @@ footer {
     }
 
     #logo-mobile {
-        display: flex !important;
+        display: flex;
         justify-content: space-between;
         align-items: center;
     }
 
+    /* section 1 responsive */
     .section-1 {
         flex-direction: column;
        
@@ -449,7 +452,100 @@ footer {
     .section-1-pic, .section-1-right-all {
         width:100%;
         padding: 0px;
-        font-size: 100%;
     }
+
+    .section-1-right {
+        width: 100%;
+        padding-top: 32px;
+        padding-bottom: 32px;
+        padding-right: 16px;
+        gap: 0px;
+    }
+
+    .section-1-right h1 {
+        font-size: 1.8rem;
+        padding-bottom: 32px;
+    }
+
+    .section-1-right h3 {
+        font-size: 1.2rem;
+        padding-bottom: 24px;
+    }
+
+    /* sectoin 2 responsive */
+    .section-2-img-left {
+        display: none;
+    }
+
+    .section-2-banner-right {
+        width: 100%;
+        display: block;
+        border: 0px;
+    }
+
+    .section-2-img-right {
+        width: 100%;
+    }
+
+    .section-2-banner-right-num {
+        flex-direction: column;
+        border: none;
+    }
+
+    .section-2-banner-right-content {
+        padding:16px 32px 48px 32px;
+        width: 100%;
+    }
+
+    .section-2-img-right img:first-child {
+        display: none;
+    }
+
+    .section-2-img-right img:last-child {
+       display: flex !important;
+    }
+
+    .section-2-banner-right-num-first {
+        padding-top: 0px;
+    }
+
+    #guest-desktop {
+        display: none;
+    }
+
+    #guest-mobile {
+        display: block !important;
+    }
+
+    #section-2-banner-last {
+        padding-bottom: 32px;
+    }
+
+    /* section 3 responsive */
+    .section-3 {
+        background-color: white;
+        border-top: 0.5px solid #D8D8D8;
+    }
+    .section-3-header h2 {
+        padding-bottom: 16px ;
+        
+    }
+
+    .section-3-courses-box {
+        display: none;
+    }
+
+    .course-mobile {
+        display: flex !important;
+        flex-direction: column;
+        background-color: white;
+    }
+
+
+
+
+
+
+
 
 }
