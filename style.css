@@ -1,0 +1,455 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap%27');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    max-width: 1200px;
+    border-right: solid 1px rgb(223, 223, 223);
+
+}
+
+a {
+    text-decoration: none;/* a all */
+}
+
+p {
+    color: rgb(145, 143, 143);
+}
+
+li {
+    list-style: none;/* li all */
+    display: flex;
+    align-items: center;
+}
+
+h1 {
+    
+    color: #4f4e4e;
+}
+
+h2 {
+    color: #4f4e4e;
+}
+
+h3 {
+    color: #4f4e4e;
+}
+
+/* header section */
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 24px;
+    height: 64px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    gap: 16px;
+}
+
+.colmar-logo {
+    align-items: center;
+    display: flex;
+    font-size: 16px;
+}
+
+.colmar-logo a {
+    display: flex;
+}
+
+
+.colmar-logo span {
+    color: rgb(191, 187, 187);
+}
+
+.colmar-logo strong {
+    color: #4f4e4e;
+}
+
+.colmar-logo img {
+    width: 32px;
+}
+
+.colmar-logo:active {
+    scale: .95;
+}
+
+.nav-a {
+    color: black;
+}
+
+.nav-a:hover {
+    color: gray;
+    scale: 1.1;
+}
+
+.nav-a:active {
+    scale: 0.95;
+}
+
+
+#logo-mobile {
+    display: none;
+}
+
+/* section1 */
+
+.section-1 {
+    display: flex;
+    background-color: #D8D8D8;
+    
+    
+}
+
+.section-1-pic {
+    width: 60%;
+    padding: 32px 24px;
+}
+
+.section-1-pic img{
+    max-width: 100%;
+    
+}
+
+.section-1-right-all {
+    display: flex;
+    align-items: center;
+    width: 40%;
+    
+}
+
+.section-1-right {
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+    width: 80%;
+    padding-left:16px;
+}
+
+.section-1-right h1 {
+    font-size: 2.5rem;
+    
+    letter-spacing: .5px;
+}
+
+.section-1-right h3 {
+    font-size: 1.4rem;
+    
+}
+
+button {
+    background-color: #4f4e4e;
+    color: #D8D8D8;
+    border: 0px;
+    padding: 8px 50px;
+    font-size: 1rem;
+    border-radius: 80px;
+}
+
+button:hover {
+    cursor: pointer;
+    box-shadow: 0 7px 30px #4f4e4e;
+    
+}
+
+button:active {
+    scale: .95;
+}
+
+
+/* section 2 */
+.section-2 {
+    display: flex;
+    max-width: 100%;
+}
+
+.section-2-img-left {
+    width: 60%;
+}
+
+.section-2-img-left img {
+    width: 100%;
+    margin-top:32px;
+    padding-left: 24px;
+    padding-right: 24px;
+    
+}
+
+.section-2-banner-right {
+    display: flex;
+    width: 40%;
+    flex-direction: column;
+    gap: 2.5px;
+    border-left: solid 1px rgb(223, 223, 223);
+}
+
+.section-2-banner-left {
+    margin: 32px auto 32px 24px;
+    width: 95%;
+}
+
+.section-2-banner-left h2{
+    font-size: 2.05rem;
+    margin-bottom: 24px;
+}
+
+.section-2-banner-left p:nth-child(2) {
+    font-size: 102%;
+    margin-bottom: 60px;
+    text-align: justify;
+    width: 96%;
+}
+
+.section-2-banner-right-num {
+    width: 100%;
+    display: flex;
+    border: solid 1px rgb(223, 223, 223);
+    
+    
+}
+
+.section-2-banner-right-num img {
+    width: 100%;
+
+    
+    
+}
+
+.section-2-banner-right-num:hover {
+    background-color: rgb(223, 223, 223);
+    
+}
+
+.section-2-banner-right-content {
+    display: flex;
+    flex-direction: column;
+    width: 59%;
+    justify-content: center;
+    gap: 8px;
+    
+}
+
+.readmore{
+    color: #67A2E6;
+}
+
+.readmore:hover {
+    scale: 1.01;
+}
+
+.section-2-banner-right-num-first {
+    padding-top: 16px;
+    border-top: none;
+}
+
+.section-2-img-right {
+    width:41%;
+    padding: 16px;
+}
+
+
+/* secton 3 */
+
+.section-3 {
+    width: 100%;
+    background-color: #EAEBEC;
+}
+
+.section-3-header {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.section-3-header h2 {
+    padding-top: 32px; 
+    padding-bottom: 32px; 
+    font-size: 2.05rem;
+}
+
+.section-3-courses-box {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px 72px 32px 72px;
+    gap: 32px;
+}
+
+.course {
+    background-color: white;
+     flex: 30%;
+
+}
+
+.course:hover {
+    box-shadow: 0 7px 30px #4f4e4e;
+}
+
+.course img {
+    width: 100%;
+}
+
+.course h3 {
+    padding-top: 16px;
+    padding-left: 16px;
+    padding-bottom: 24px;
+}
+
+.course p:first-of-type{
+    padding-bottom: 8px;
+    padding-left: 16px;
+}
+
+.course p:last-of-type {
+    padding-left: 16px;
+    padding-right: 16px;
+    line-height: 1.5;
+    padding-bottom: 24px;
+}
+
+
+/* section 4 */
+.section-4 {
+    width: 100%;
+}
+
+.section-4-header {
+    display: flex;
+    justify-content: center;
+}
+.section-4-header h2 {
+    padding-top: 32px; 
+    padding-bottom: 32px; 
+    font-size: 2.05rem;
+    
+}
+
+.video-banner {
+    width: 60%;
+    padding-left: 24px;
+}
+
+.video-banner h3 {
+    padding-bottom: 8px;
+}
+
+.video-banner p {
+    padding-bottom: 32px;
+    width: 90%;
+    text-align: justify;
+    font-size: 90%;
+}
+
+.video-banner video {
+    width: 100%;
+    padding-right: 24px;
+    padding-bottom: 24px;
+}
+
+.section-4-banner-right {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.section-4-banner-right-num {
+    display: flex;
+    width: 100%;
+}
+
+.section-4-banner-right-num:hover {
+    background-color: rgb(223, 223, 223);
+}
+
+.section-4-banner-right-img {
+    width: 35%;
+}
+
+.section-4-banner-right-content {
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 8px;
+    padding-right: 48px;
+}
+
+.section-4-banner-right-num img {
+    width: 100%;
+    padding: 16px;
+}
+
+.section-4-banner-all {
+    display: flex;
+}
+
+.section-4-banner-right-content p {
+    font-size: 90%;
+}
+
+
+
+/* footer */
+footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 24px 3rem 24px;
+}
+
+.nav-f {
+    color: #67A2E6;
+}
+.nav-f:hover {
+    
+    scale: 1.1;
+}
+
+.nav-f:active {
+    scale: 0.95;
+}
+
+.nav-f:visted {
+    color: #67A2E6;
+}
+
+
+/* Responsive */
+
+@media (max-width: 625px) {
+    .colmar-logo {
+        display: none;
+    }
+
+    header nav {
+        display: none;
+    }
+
+    #logo-mobile {
+        display: flex !important;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .section-1 {
+        flex-direction: column;
+       
+    }
+
+    .section-1-pic, .section-1-right-all {
+        width:100%;
+        padding: 0px;
+        font-size: 100%;
+    }
+
+}
