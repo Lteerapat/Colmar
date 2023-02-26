@@ -525,6 +525,7 @@ footer {
     .section-3 {
         background-color: white;
         border-top: 0.5px solid #D8D8D8;
+        border-bottom: 0.5px solid #D8D8D8;
     }
     .section-3-header h2 {
         padding-bottom: 16px ;
@@ -539,9 +540,78 @@ footer {
         display: flex !important;
         flex-direction: column;
         background-color: white;
+        padding: 0px 16px 32px 16px;
+        gap: 8px;
+    
     }
 
+    .each-course-mobile {
+        padding: 16px 24px;
+        background-color: #D8D8D8;
+        font-size: 1.2rem;
+        color: #4f4e4e;
+        font-weight: 600;
+    }
 
+    .each-course-mobile:hover{
+        background-color: #4f4e4e;
+        color: #EAEBEC;
+        scale: 1.1;
+    }
+
+    .each-course-mobile:focus {
+        scale: .95;
+    
+    }
+
+    /* section 4 mobile */
+    
+
+    .video-banner h3, .video-banner p {
+        display: none;
+    }
+
+    .section-4-banner-right {
+        display: none;
+    }
+
+    .video-banner {
+        width: 100%;
+        padding: 0;
+    }
+    
+    .video-banner video {
+        padding: 0;
+        padding-bottom: 24px;
+    }
+
+    hr {
+        display: none;
+    }
+
+    #thesis-desktop {
+        display: none;
+    }
+
+    #thesis-mobile {
+        display: flex !important;
+        padding-bottom: 16px;
+    }
+
+    
+    /* footer responsive */
+    footer {
+        padding: 0;
+    }
+    footer p {
+        padding: 16px;
+        font-size: 90%;
+    }
+    footer ul {
+        display: none;
+    }
+
+    
 
 
 
