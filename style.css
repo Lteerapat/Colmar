@@ -557,9 +557,10 @@ footer {
         background-color: #4f4e4e;
         color: #EAEBEC;
         scale: 1.1;
+        cursor: pointer;
     }
 
-    .each-course-mobile:focus {
+    .each-course-mobile:active {
         scale: .95;
     
     }
