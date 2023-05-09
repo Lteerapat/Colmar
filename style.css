@@ -10,8 +10,9 @@
 body {
     font-family: 'Montserrat', sans-serif;
     max-width: 1200px;
+    margin: 0 auto;
     color: #4f4e4e;
-    border-right: 0.5px solid  rgb(223, 223, 223);
+    border: 0.5px solid  rgb(223, 223, 223);
 }
 
 a {
@@ -39,8 +40,6 @@ li:active {
     scale: 1.05;
 }
 
-
-
 h2 {
     font-size: 2.05rem;
 }
@@ -54,7 +53,6 @@ video {
 }
 
 /* mobile hidden */
-
 
 #header-mobile {
     display: none;
@@ -95,9 +93,6 @@ header {
 .colmar-logo:active {
     scale: .95;
 }
-
-
-
 
 span {
     color: rgb(145, 143, 143);
@@ -196,6 +191,14 @@ section:nth-child(2) {
 .sec-2-left-content p:nth-child(2) {
     text-align: justify;
     padding-bottom: 32px;
+}
+
+.sec-2-left-content a {
+    color: blue;
+}
+
+.sec-2-left-content a:hover {
+    color: blueviolet;
 }
 
 .readmore {
@@ -412,8 +415,6 @@ footer {
         font-size: 1.8rem;
     }
 
-   
-
     /* sectoin2 */
     .sec-2-left {
         display: none;
@@ -498,8 +499,6 @@ footer {
         cursor: pointer;
     }
 
-    
-
     /* section 4 */
 
     section:last-child {
@@ -527,7 +526,6 @@ footer {
         padding-bottom: 24px;
     }
     
-
     .sec-4-header h2:first-child {
         display: none;
     }
@@ -549,11 +547,7 @@ footer {
     }
     footer ul {
         display: none;
-    }
-
-   
-        
-        
+    }     
 }
 
 
